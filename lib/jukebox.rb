@@ -32,7 +32,7 @@ def play(x)
   puts "Please enter a song name or number:"
   user_input = gets.chomp.to_s
   if user_input < 10.to_s
-    puts "Playing #{x[user_input]}"
+    puts "Playing #{x[user_input].to_i}"
   else
     puts "Invalid input, please try again"
   end
