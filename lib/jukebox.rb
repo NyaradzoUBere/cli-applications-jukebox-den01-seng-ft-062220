@@ -40,7 +40,7 @@ end
 
 # play(songs)
 
-puts (1..9).select
+puts rand(1..9)
 
 # def say_hello(name)
 #   "Hi #{name}!"
