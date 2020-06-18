@@ -40,20 +40,9 @@ def play(x)
   end
 end
 
-play(songs)
-
-# x = ["hello", "bon jur", "hola", "ni how"]
-
-# puts x.include? "hello"
-
-# def say_hello(name)
-#   "Hi #{name}!"
-# end
-
-# puts "Enter your name:"
-# users_name = gets.strip
-
-# puts say_hello(users_name)
+def exit_jukebox
+  puts "Goodbye"
+end
 
 
 
