@@ -20,7 +20,12 @@ def help
 - exit : exits this program"
 end
 
-help
+def list(songs)
+  songs.each do |song|
+    i = 1
+    puts songs[i]
+    i += 1
+end
 
 
 
