@@ -34,7 +34,10 @@ def play(x)
   if user_input == (1..9) 
     puts "Playing #{x[user_input - 1]}"
   else
-    puts ""
+    puts "Invalid input, please try again"
+  end
+end
+
 
 # def say_hello(name)
 #   "Hi #{name}!"
