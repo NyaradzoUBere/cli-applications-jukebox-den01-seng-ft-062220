@@ -30,7 +30,7 @@ end
 
 def play(x)
   user_input = gets.chomp.to_s
-  if user_input == 
+  if user_input.between?(1, 9)
 end
 
 play(songs)
