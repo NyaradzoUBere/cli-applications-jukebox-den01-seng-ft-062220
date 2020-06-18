@@ -29,8 +29,10 @@ def list(x)
 end
 
 def play(x)
+  puts "Please enter a song name or number;"
   user_input = gets.chomp.to_s
-  if user_input.between?(1, 9) 
+  i = user_input
+  if i.between?(1, 9) || i == x[i+1]
 end
 
 play(songs)
