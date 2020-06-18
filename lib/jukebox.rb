@@ -58,8 +58,6 @@ def run(x)
   end
 end
 
-
-pets = ["dog", "cat", "fish", "hamster"]
-puts pets["fish".to_i]
+run(songs)
 
 
