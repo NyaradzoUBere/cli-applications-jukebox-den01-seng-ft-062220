@@ -20,7 +20,7 @@ def help
 - exit : exits this program"
 end
 
-def list(songs)
+def list(x)
   songs.each do |song|
     i = 1
     puts songs[i]
@@ -28,7 +28,7 @@ def list(songs)
   end
 end
 
-
+list(songs)
 
 # def say_hello(name)
 #   "Hi #{name}!"
