@@ -28,7 +28,8 @@ def list(x)
   end
 end
 
-list(songs)
+def play(x)
+  puts ""
 
 # def say_hello(name)
 #   "Hi #{name}!"
