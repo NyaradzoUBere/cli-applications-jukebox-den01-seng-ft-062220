@@ -21,7 +21,7 @@ def help
 end
 
 def list(x)
-  x.each_with_index do |song|
+  x.each do |song|
     i = 0
     puts "#{i + 1}. #{x[i]}"
     i += 1
