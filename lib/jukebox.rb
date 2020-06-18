@@ -34,7 +34,7 @@ def play(x)
   if i == (1..9).to_s 
     puts "Playing #{x[i-1]}"
   else
-  puts "Invalid input, please try again"
+    puts "Invalid input, please try again"
 end
 end
 
