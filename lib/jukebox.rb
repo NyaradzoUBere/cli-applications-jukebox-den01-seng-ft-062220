@@ -31,7 +31,10 @@ end
 def play(x)
   puts "Please enter a song name or number:"
   user_input = gets.strip
-  if user_input == x[0..9]
+  if user_input == (1..9) 
+    puts "Playing #{x[user_input - 1]}"
+  else
+    puts ""
 
 # def say_hello(name)
 #   "Hi #{name}!"
