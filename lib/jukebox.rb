@@ -22,8 +22,7 @@ end
 
 def list(x)
   i = 0
-  while i < songs.length
-    i = 0
+  while i < x.length
     puts "#{i + 1}. #{x[i]}"
     i += 1
   end
