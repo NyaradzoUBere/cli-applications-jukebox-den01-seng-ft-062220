@@ -33,7 +33,7 @@ def play(x)
   user_input = gets.chomp.to_i
   if user_input < 10 && user_input > 0
     puts "Playing #{x[user_input-1]}"
-  elsif user_input != Integer && user_input == songs.each
+  elsif user_input != Integer && user_input == songs.include?
     puts "Playing #{x"
     puts "Invalid input, please try again"
   end
