@@ -41,8 +41,8 @@ end
 # play(songs)
 
 x = ["hello", "bon jur", "hola", "ni how"]
-i = 5
-puts "The string is #{x[i.to_i-2]}"
+
+x.include? "hello"
 
 # def say_hello(name)
 #   "Hi #{name}!"
