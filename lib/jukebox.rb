@@ -47,10 +47,7 @@ end
 def run
   puts "Please enter a command:"
   user_input = gets.chomp
-  if user_input == "exit"
-    exit_jukebox
-  end
-  while user_input != "exit" do
+  if user_input != "exit"
     if user_input == "list"
       list(songs)
     elsif user_input == "play"
