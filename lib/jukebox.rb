@@ -21,7 +21,7 @@ def help
 end
 
 def list(songs)
-  songs.each_with_index do |song|
+  songs.each do |song|
     i = 1
     puts songs[i]
     i += 1
