@@ -60,6 +60,6 @@ end
 
 
 pets = ["dog", "cat", "fish", "hamster"]
-puts pets[dog.to_i]
+puts pets["dog".to_i]
 
 
