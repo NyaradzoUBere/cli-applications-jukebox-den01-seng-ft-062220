@@ -40,7 +40,7 @@ end
 
 # play(songs)
 
-puts (1..9).to_i
+puts (1..9).to_int
 
 # def say_hello(name)
 #   "Hi #{name}!"
