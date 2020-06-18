@@ -25,6 +25,7 @@ def list(songs)
     i = 1
     puts songs[i]
     i += 1
+  end
 end
 
 
