@@ -42,7 +42,7 @@ end
 
 x = [1, 2, 3, 4]
 i = 5
-puts "The string is #{x[5-2]}"
+puts "The string is #{x[i-2]}"
 
 # def say_hello(name)
 #   "Hi #{name}!"
