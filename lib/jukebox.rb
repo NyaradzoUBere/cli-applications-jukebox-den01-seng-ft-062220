@@ -38,7 +38,7 @@ def play(x)
   end
 end
 
-play(songs)
+# play(songs)
 
 # x = [1, 2, 3, 4]
 # i = 5
