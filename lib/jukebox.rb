@@ -38,7 +38,7 @@ def play(x)
   end
 end
 
-play(songs)
+# play(songs)
 
 # def say_hello(name)
 #   "Hi #{name}!"
