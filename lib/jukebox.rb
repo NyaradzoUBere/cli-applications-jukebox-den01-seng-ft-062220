@@ -31,7 +31,7 @@ end
 # def play(x)
 #   puts "Please enter a song name or number:"
 #   i = gets.chomp
-#   if i.to_i.between?(1, 9) || i.to_s.include? i
+#   if i.to_i.between?(1, 9) || x.include? i
 #     puts "Playing #{x[i.to_i-1]}"
 #   else
 #     puts "Invalid input, please try again"
@@ -40,7 +40,7 @@ end
 
 # play(songs)
 
-x = [1, 2, 3, 4]
+x = ["hello", "bon jur", "hola", "ni how"]
 i = 5
 puts "The string is #{x[i.to_i-2]}"
 
