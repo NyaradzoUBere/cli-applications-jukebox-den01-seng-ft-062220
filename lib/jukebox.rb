@@ -42,7 +42,7 @@ end
 
 x = ["hello", "bon jur", "hola", "ni how"]
 
-x.include? "hello"
+puts x.include? "hello"
 
 # def say_hello(name)
 #   "Hi #{name}!"
