@@ -38,9 +38,9 @@ def play(x)
   end
 end
 
-# play(songs)
+play(songs)
 
-puts rand(1..9)
+
 
 # def say_hello(name)
 #   "Hi #{name}!"
