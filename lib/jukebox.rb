@@ -34,7 +34,7 @@ def play(x)
   if i.to_i.between?(1, 9)
     puts "Playing #{x[i.to_i-1]}"
   elsif x.include?(i)
-    puts "Playing #{x[i.to_i]}"
+    puts "Playing #{i}"
   else
     puts "Invalid input, please try again"
   end
