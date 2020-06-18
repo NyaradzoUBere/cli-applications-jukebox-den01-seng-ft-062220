@@ -31,6 +31,7 @@ end
 def play(x)
   puts "Please enter a song name or number:"
   user_input = gets.strip
+  if user_input == x[0..9]
 
 # def say_hello(name)
 #   "Hi #{name}!"
