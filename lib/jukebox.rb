@@ -23,7 +23,7 @@ end
 def list(x)
   x.each do |song|
     i = 0
-    puts "#{i + 1}. x[i]
+    puts "#{i + 1}. x[i]"
     i += 1
   end
 end
