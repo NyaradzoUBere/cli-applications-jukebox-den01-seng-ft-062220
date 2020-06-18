@@ -59,6 +59,7 @@ def run
       help
     end
 end
+end
 
 run
 
