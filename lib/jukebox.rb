@@ -59,6 +59,7 @@ def run(x)
 end
 
 
-
+pets = ["dog", "cat", "fish", "hamster"]
+puts pets[dog.to_i]
 
 
