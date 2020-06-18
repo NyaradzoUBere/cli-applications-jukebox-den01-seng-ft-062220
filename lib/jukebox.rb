@@ -28,21 +28,21 @@ def list(x)
   end
 end
 
-def play(x)
-  puts "Please enter a song name or number:"
-  i = gets.chomp
-  if i.to_i.between?(1, 9) || i == x[i]
-    puts "Playing #{x[i.to_i-1]}"
-  else
-    puts "Invalid input, please try again"
-  end
-end
+# def play(x)
+#   puts "Please enter a song name or number:"
+#   i = gets.chomp
+#   if i.to_i.between?(1, 9) || i.to_s == x[i]
+#     puts "Playing #{x[i.to_i-1]}"
+#   else
+#     puts "Invalid input, please try again"
+#   end
+# end
 
-play(songs)
+# play(songs)
 
-# x = [1, 2, 3, 4]
-# i = 5
-# puts "The string is #{x[i.to_i-2]}"
+x = [1, 2, 3, 4]
+i = 5
+puts "The string is #{x[i.to_i-2]}"
 
 # def say_hello(name)
 #   "Hi #{name}!"
