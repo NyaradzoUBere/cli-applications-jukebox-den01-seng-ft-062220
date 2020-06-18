@@ -33,6 +33,9 @@ def play(x)
   user_input = gets.chomp.to_s
   i = user_input
   if i.between?(1, 9) || i == x[i+1]
+    puts "Playing #{x[i+1]}"
+  else
+  puts "Invalid input, please try again"
 end
 
 play(songs)
