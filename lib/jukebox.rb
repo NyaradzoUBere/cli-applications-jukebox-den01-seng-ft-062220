@@ -30,6 +30,7 @@ end
 
 def play(x)
   user_input = gets.chomp.to_s
+  if user_input 
 end
 
 play(songs)
