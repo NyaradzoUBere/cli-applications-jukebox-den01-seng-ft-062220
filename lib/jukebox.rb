@@ -29,7 +29,7 @@ def list(x)
 end
 
 def play(x)
-  
+  user_input = gets.chomp.to_s
 end
 
 play(songs)
