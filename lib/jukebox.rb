@@ -32,7 +32,7 @@ def play(x)
   puts "Please enter a song name or number;"
   user_input = gets.chomp.to_s
   i = user_input
-  if i.between?(1, 9) || i == x[i]
+  if i = (1..9).to_s || i == x[i]
     puts "Playing #{x[i+1]}"
   else
   puts "Invalid input, please try again"
