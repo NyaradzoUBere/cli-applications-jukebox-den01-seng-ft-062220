@@ -21,9 +21,9 @@ def help
 end
 
 def list(x)
-  songs.each do |song|
+  x.each do |song|
     i = 1
-    puts songs[i]
+    puts x[i]
     i += 1
   end
 end
